@@ -1,0 +1,27 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+table{
+  width: 99vw;
+  height: 97vh;
+  border-spacing: 10px 15px;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+.tr1{
+  background-color: thistle;
+  height: 15%;
+}
+.tr2{
+  background-color: turquoise;
+  height: 35%;
+}
+.tr3{
+  background-color: violet;
+  height: 30%;
+}
+.tr4{
+  background-color: yellowgreen;
+  height: 20%;
+}

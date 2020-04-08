@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.main{
+    position:absolute;
+    left: 20em;
+    border: black solid 5px;
+    height: 700px;
+    width: 700px;
+}
+.con1{
+    position: absolute;
+    right: 18.em;
+    bottom: 7.6.em;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    
+}
+.con3{
+    position: absolute;
+    left: 18.75em;
+    top: 18.75em;
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+}
+.con2{
+    position: absolute;
+    left: 9.75em;
+    top: 8.75em;
+    height: 400px;
+    width: 400px;
+    background-color: chartreuse;
+    z-index: 1;
+}

@@ -1,0 +1,48 @@
+body{
+   margin: 0 auto;
+   padding: 0 auto;
+   background-color: rgba(100, 150, 400, 0.8); 
+}
+.header{
+    width: 90%;
+    height: 15%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: green solid 5px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 4em;
+    color: chartreuse;
+}
+.menu{
+    position: fixed;
+    width: 10%;
+    height: 600px;
+    background-color: rgba(150, 400, 100, 0.5);
+    font-size: 30px;
+}
+.center{
+    width: 90%;
+    height: 600px;
+    border: sienna 5px solid;
+    margin-left: 10%;
+    color: rgba(300, 150, 122, 0.8);
+    font-weight: 200;
+    font-size:30px ;
+    float: inline-end;
+}
+.footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 15%;
+    border:red solid 5px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    text-align: center;
+    color: rgb(100, 110, 123, 1);
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+}

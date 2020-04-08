@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+}
+.main-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container.cont1{
+   height: 8%;
+}
+.container.cont2{
+    height: 43%;
+}
+.container.cont3{
+    height:25%;
+}
+.container.cont4{
+    height: 15%;
+}
+.container.cont1 div{
+    background-color: yellow;
+    width: 49%;
+}
+.container.cont2 div{
+    background-color: lawngreen;
+    width: 99%;
+}
+.container.cont3 div{
+    background-color: aqua;
+    width: 32%;
+}
+.container.cont4 div{
+    background-color: firebrick;
+    width: 24%;
+}
